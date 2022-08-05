@@ -3,13 +3,13 @@ package day2;
 public class Vehicle {
 
     //State
-    //Make
-    //Model
-    //Year
-    //Trim
-    //Color
-    //Transmission
-    //Fuel System (Gasoline/Electric)
+    //Make [String]
+    //Model [String]
+    //Year [Short]
+    //Trim [String]
+    //Color [String]
+    //Transmission [String]
+    //Fuel System (Gasoline/Electric) [boolean]
 
     //Behavior
     //Run backward and forward

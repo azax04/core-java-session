@@ -2,11 +2,13 @@ package day2;
 
 public class Software {
     //State
-    //Categories
-    //Open source
-    //Platform
-    //Functionality
-    //
+    //Categories [String]
+    //Open source (y/n) [boolean]
+    //Platform [String]
+    //Functionality [String]
+    //Images [String]
+    //Description [String]
+    //Version [float]
 
     //Behavior
     //Easy surfing

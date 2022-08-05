@@ -3,18 +3,18 @@ package day2;
 public class Supermarket {
 
     //State
-    //Departmental types
-    //Service offer
-    //Location
-    //Service Hour
-    //Payment system
+    //Departmental types [String]
+    //Service offer [String]
+    //Location [String]
+    //Service Hour [String]
+    //Payment system [String]
+    //Account management [String]
 
 
     //Behavior
     //Add/Remove to Cart/Wishlist
     //Search item
     //Checkout
-    //Account management
     //View purchase history
     //
 }
