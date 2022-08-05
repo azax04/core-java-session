@@ -4,16 +4,16 @@ public class Software {
     //State
     //Categories
     //Open source
-    //iOS and Android
-    //Types (application or web)
+    //Platform
     //Functionality
-    //Usability
-    //Performance
+    //
 
     //Behavior
     //Easy surfing
     //Handy to use
     //Reviews
-    //Productivity increment
-    //Better customer service
+    //Download
+    //Like
+    //Add to Wishlist
+    //Share
 }

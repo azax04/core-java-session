@@ -5,17 +5,16 @@ public class Supermarket {
     //State
     //Departmental types
     //Service offer
-    //Pricing policy
-    //Self service
+    //Location
+    //Service Hour
     //Payment system
-    //Online service
-    //Home Delivery
+
 
     //Behavior
-    //Availability of variety goods
-    //Offer services
-    //Parking facilities
-    //General Merchandise
-    //Advertisement
-    //Employment
+    //Add/Remove to Cart/Wishlist
+    //Search item
+    //Checkout
+    //Account management
+    //View purchase history
+    //
 }
