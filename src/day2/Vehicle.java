@@ -3,13 +3,19 @@ package day2;
 public class Vehicle {
 
     //State
-    //Make [String]
-    //Model [String]
-    //Year [Short]
-    //Trim [String]
-    //Color [String]
-    //Transmission [String]
-    //is Gasoline/Electric [boolean]
+
+    String brand;
+    String model;
+    short year;
+    String trim;
+    String color;
+    int price;
+    String images;
+    int mileage;
+    String transmission;
+    String vinNumber;
+    String driveType;
+    boolean isGasolineOrElectric;
 
     //Behavior
     //Run backward and forward
