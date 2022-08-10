@@ -9,7 +9,7 @@ public class Vehicle {
     //Trim [String]
     //Color [String]
     //Transmission [String]
-    //Fuel System (Gasoline/Electric) [boolean]
+    //is Gasoline/Electric [boolean]
 
     //Behavior
     //Run backward and forward
