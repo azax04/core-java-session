@@ -17,6 +17,7 @@ public class Vehicle {
     String driveType;
     boolean isGasolineOrElectric;
 
+
     //Behavior
     //Run backward and forward
     //Mode of transportation
