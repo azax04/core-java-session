@@ -4,28 +4,35 @@ public class PTRConcept {
 
     public static void main(String[] args) {
 
-        int principal = 10000;
-        int time = 1;
-        int rate = 5;
+        int p1 = 10000;
+        float t1 = 1.8f;
+        int r1 = 5;
 
-        int interestRate = (principal * time * rate / 100);
-        System.out.println(interestRate);
-
-    }
-
-    public static void main(String[] args) {
+        //double interestRate = (p1 * t1 * r1) / 100;
+        int si = (int) ((p1*t1*r1)/100);
+        System.out.println(si);
 
 
         int p = 2000;
-        double t = 0.42;
+        float t = 0.7f;
         int r = 3;
 
-        double interestRate1 = (p * t * r) / 100;
-        System.out.println(interestRate1);
+        //float iR = (p * t * r) / 100;
+        int si1 = (int) ((p*t*r)/100);
+        System.out.println(si1);
+    }
+
+    public static void simpleInterest(int p, double t, int r){
+        double simpleInterest = (p * t * r / 100);
+        System.out.println(simpleInterest);
+
+    }
+
+    public static int addAndReturn(int p, float t, int r){
+        int si = (int) ((p*t*r)/100);
+        return si;
+    }
 
 
     }
 
-
-
-}
