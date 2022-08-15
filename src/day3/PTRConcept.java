@@ -9,7 +9,7 @@ public class PTRConcept {
         int r1 = 5;
 
         //double interestRate = (p1 * t1 * r1) / 100;
-        int si = (int) ((p1*t1*r1)/100);
+        float si = p1*t1*r1/100;
         System.out.println(si);
 
 
@@ -18,8 +18,16 @@ public class PTRConcept {
         int r = 3;
 
         //float iR = (p * t * r) / 100;
-        int si1 = (int) ((p*t*r)/100);
+        int si1 = p*t*r/100);
         System.out.println(si1);
+
+
+        float p2 = 50000.55f;
+        float t2 = 2.9f;
+        float r2 = 1.6f;
+
+        float si1 = (p2, t2, r2)
+        System.out.println(iR);
     }
 
     public static void simpleInterest(int p, double t, int r){
@@ -28,9 +36,15 @@ public class PTRConcept {
 
     }
 
-    public static int addAndReturn(int p, float t, int r){
-        int si = (int) ((p*t*r)/100);
+    public static float addAndReturn(int p, float t, int r){
+        float si = p*t*r/100;
         return si;
+    }
+
+    public static float addAndReturn(float p, float t, float r) {
+        float si = p * t * r / 100;
+        return si;
+
     }
 
 
