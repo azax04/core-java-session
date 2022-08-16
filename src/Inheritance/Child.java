@@ -9,6 +9,11 @@ public class Child {
         child1.setGenetics("Biological");
 
 
+        Child child2 = new Child();
+        child2.setLastName("AK");
+        child2.setAge(28);
+        child2.setHeight(5.2);
+        child2.setGenetics("Biological");
 
 
     }
