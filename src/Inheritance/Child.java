@@ -15,6 +15,5 @@ public class Child {
         child2.setHeight(5.2);
         child2.setGenetics("Biological");
 
-
     }
 }
