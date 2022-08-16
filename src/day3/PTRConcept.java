@@ -18,7 +18,7 @@ public class PTRConcept {
         int r = 3;
 
         //float iR = (p * t * r) / 100;
-        int si1 = p*t*r/100);
+        float si1 = iRAndReturn(p,t,r);
         System.out.println(si1);
 
 
@@ -26,8 +26,9 @@ public class PTRConcept {
         float t2 = 2.9f;
         float r2 = 1.6f;
 
-        float si1 = (p2, t2, r2)
-        System.out.println(iR);
+        //float si2 = p2, t2, r2;
+        float si2 = iRAndReturn(p2,t2,r2);
+        System.out.println(si2);
     }
 
     public static void simpleInterest(int p, double t, int r){
@@ -36,12 +37,12 @@ public class PTRConcept {
 
     }
 
-    public static float addAndReturn(int p, float t, int r){
+    public static float iRAndReturn(int p, float t, int r){
         float si = p*t*r/100;
         return si;
     }
 
-    public static float addAndReturn(float p, float t, float r) {
+    public static float iRAndReturn(float p, float t, float r) {
         float si = p * t * r / 100;
         return si;
 

@@ -1,6 +1,7 @@
 package day3;
 
-public class FunctionMethod {
+public class
+FunctionMethod {
 
     public static void main(String[] args) {
 
