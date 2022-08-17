@@ -24,6 +24,5 @@ public class Child {
         System.out.println(child2.getHeight());
         System.out.println(child2.getGenetics());
 
-
     }
 }
