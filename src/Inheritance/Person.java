@@ -6,6 +6,14 @@ public class Person {
     private int age;
     private double height;
 
+    public void setGenetics(String genetics) {
+        this.genetics = genetics;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
     public String getLastName() {
         return lastName;
     }
@@ -16,10 +24,6 @@ public class Person {
 
     public String getGenetics() {
         return genetics;
-    }
-
-    public void setGenetics(String genetics) {
-        this.genetics = genetics;
     }
 
     public int getAge() {
@@ -34,7 +38,5 @@ public class Person {
         return height;
     }
 
-    public void setHeight(double height) {
-        this.height = height;
-    }
+
 }
