@@ -25,8 +25,8 @@ public class AbstractionMethod {
         BankAccount dummyAccount = new BankAccount();
         dummyAccount.transferBalance(ramAccount, shyamAccount, 10000);
 
-        //double ramFinalBalance = ramAccount.getAccountBalance() - 10000;
-        //double shyamFinalBalance = shyamAccount.getAccountBalance() + 10000;
+        double ramFinalBalance = ramAccount.getAccountBalance() - 10000;
+        double shyamFinalBalance = shyamAccount.getAccountBalance() + 10000;
 
         //ramAccount.setAccountBalance(ramFinalBalance);
         //shyamAccount.setAccountBalance(shyamFinalBalance);
