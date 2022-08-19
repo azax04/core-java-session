@@ -36,13 +36,13 @@ public class MarkSheet {
         boolean isFirstDivision = percentage >= 65 && percentage <80;
         System.out.println("First Division:" + isFirstDivision);
 
-        boolean isSecondDivision = percentage >= 55 && percentage <64;
+        boolean isSecondDivision = percentage >= 55 && percentage <65;
         System.out.println("Second Division:" + isSecondDivision);
 
-        boolean isThirdDivision = percentage >= 40 && percentage <54;
+        boolean isThirdDivision = percentage >= 40 && percentage <55;
         System.out.println("Third Division:" + isThirdDivision);
 
-        boolean isFail = percentage >= 0 && percentage <39;
+        boolean isFail = percentage >= 0 && percentage <40;
         System.out.println("Fail:" + isFail);
 
 
