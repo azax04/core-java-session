@@ -14,12 +14,5 @@ public class StudentResult {
 
 
 
-
-        Points sam = new Points();
-        sam.setPhysics(82);
-        sam.setChemistry(86);
-        sam.setBiology(89);
-        sam.setMath(98);
-        sam.setNepali(71);
     }
 }
