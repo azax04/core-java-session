@@ -1,4 +1,4 @@
-package Constructor;
+package constructor;
 
 
 
@@ -7,8 +7,8 @@ public class SchoolApp {
     public static void main(String[] args) {
 
         School student = new School();
-        School student1 = new School("Robert");
-        School student02 = new School("aaa");
+//        School student1 = new School("Kathmandu");
+//        School student02 = new School("Itahari");
 
 //        // student1.studentID = "123ABC";
 //        // student1.name = "Robert";
@@ -41,8 +41,8 @@ public class SchoolApp {
 
 
         School student2 = new School();
-        School student3 = new School("Yaman");
-        School student4 = new School("BBB");
+//        School student3 = new School("Yaman");
+//        School student4 = new School("BBB");
         // student2.studentID = "789XYZ";
 //        student2.setName("Yaman");
 //        student2.setAge(13);
@@ -56,13 +56,13 @@ public class SchoolApp {
 
 
         School student5 = new School("567NBA", "Ram", 10, "Male", "Itahari", "987654321");
-        School student6 = new School("567ABC", "Sita", 12, "Female", "Biratnagar", "123456789");
+        School student6 = new School("567ABC", "Sita", 12, "Female", 5, "A", 1,  "Biratnagar", "123456789");
 
         System.out.println(student5.getName());
         System.out.println(student5.getGender());
         System.out.println(student5.getStudentID());
 
-
+        School student7 = new School("567123", "Harry", 12, "Male", "Ktm", "453235678");
 
     }
 

@@ -54,11 +54,11 @@ public class BankAccount {
     //transferBalance
 
     // While transfer balance from one account to another account, function should be:
-    public void transferBalance(BankAccount fromAccount, BankAccount toAccount, double balance) {
-        double fromFinalBalance = fromAccount.getAccountBalance() - balance;
+    public void transferBalance(BankAccount toAccount, double balance) {
+        double fromFinalBalance = this.getAccountBalance() - balance;
         double toFinalBalance = toAccount.getAccountBalance() + balance;
 
-        fromAccount.setAccountBalance(fromFinalBalance);
+        this.setAccountBalance(fromFinalBalance);
         toAccount.setAccountBalance(toFinalBalance);
     }
 

@@ -1,4 +1,4 @@
-package Constructor;
+package constructor;
 
 public class School {
 
@@ -29,16 +29,9 @@ public class School {
     private String address;
 
 
-    // get but not set
-    private String socialSecurityNumber;
-
-
     //
     //Constructor
     public School() {}
-    public School(String name) {}
-
-
 
     //
     //
@@ -50,31 +43,22 @@ public class School {
         this.age = age;
         this.gender = gender;
         this.address = address;
-        this.socialSecurityNumber = socialSecurityNumber;
     }
-
 
     //
     //
     //Parameterized Constructor
 
     public School(String studentID, String name, int age, String gender, int studentClass, String section, int rollNumber, String address, String socialSecurityNumber) {
-        this.studentID = studentID;
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
+        this(studentID, name, age, gender, address, socialSecurityNumber);
         this.studentClass = studentClass;
         this.section = section;
         this.rollNumber = rollNumber;
-        this.address = address;
-        this.socialSecurityNumber = socialSecurityNumber;
     }
-
-
     //
     //
     //
-
+    // getter and setter
     public String getStudentID() {
         return studentID;
     }

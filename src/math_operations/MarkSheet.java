@@ -1,4 +1,4 @@
-package MathOperations;
+package math_operations;
 
 public class MarkSheet {
     public static void main(String[] args) {

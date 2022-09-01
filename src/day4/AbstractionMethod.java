@@ -18,21 +18,31 @@ public class AbstractionMethod {
         shyamAccount.setAccountBalance(15000);
 
 
+        BankAccount hariAccount = new BankAccount();
+        hariAccount.setName("Hari");
+        hariAccount.setAccountType("Saving");
+        hariAccount.setMobileNumber("9897881997");
+        hariAccount.setAddress("Nebraska");
+        hariAccount.setAccountBalance(80000);
+
+
         // System.out.println(ramAccount.getAccountBalance());
         // System.out.println(shyamAccount.getAccountBalance());
 
 
-        BankAccount dummyAccount = new BankAccount();
-        dummyAccount.transferBalance(ramAccount, shyamAccount, 10000);
+//        BankAccount dummyAccount = new BankAccount();
+        ramAccount.transferBalance(hariAccount, 10000);
 
         double ramFinalBalance = ramAccount.getAccountBalance() - 10000;
         double shyamFinalBalance = shyamAccount.getAccountBalance() + 10000;
+        double hariFinalBalance = hariAccount.getAccountBalance() + 10000;
 
         //ramAccount.setAccountBalance(ramFinalBalance);
         //shyamAccount.setAccountBalance(shyamFinalBalance);
 
         System.out.println(ramAccount.getAccountBalance());
         System.out.println(shyamAccount.getAccountBalance());
+        System.out.println(hariAccount.getAccountBalance());
 
 
     }

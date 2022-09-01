@@ -1,6 +1,4 @@
-package MathOperations;
-
-import java.awt.*;
+package math_operations;
 
 public class StudentResult {
     public static void main(String[] args) {

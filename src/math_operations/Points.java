@@ -1,4 +1,4 @@
-package MathOperations;
+package math_operations;
 
 public class Points {
 
