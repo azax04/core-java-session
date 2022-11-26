@@ -33,15 +33,15 @@ public class Marksheet_Output_Operations {
 
         System.out.print(name + " is passed with ");
 
-        if (totalPercentage > 85) {
+        if (totalPercentage >= 85) {
             System.out.println("Distinction");
-        } else if (totalPercentage > 65) {
+        } else if (totalPercentage >= 65 && totalPercentage <85) {
             System.out.println("First Division");
-        } else if (totalPercentage > 50) {
+        } else if (totalPercentage >= 50 && totalPercentage <65) {
             System.out.println("First Division");
-        } else if (totalPercentage > 40) {
+        } else if (totalPercentage >= 40 && totalPercentage <50) {
             System.out.println("Third Division");
-        } else if (totalPercentage < 40) {
+        } else {
             System.out.println("Fail Division");
         }
 
